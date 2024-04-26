@@ -10,7 +10,7 @@ public class SimpleSnake extends JFrame {
     private int y = 200;
 
     public SimpleSnake() {
-        this.setTitle("Simple Snake Game 123");
+        this.setTitle("Simple Snake Game Changed In Github");
         this.setSize(WINDOW_SIZE, WINDOW_SIZE);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.add(new GamePanel());
