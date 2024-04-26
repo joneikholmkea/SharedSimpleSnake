@@ -27,6 +27,8 @@ public class SimpleSnake extends JFrame {
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
+            g.setColor(Color.WHITE);
+            g.drawString("hi there you", 300,300);
             g.setColor(Color.GREEN);
             g.fillOval(x, y, DOT_SIZE, DOT_SIZE);
         }
