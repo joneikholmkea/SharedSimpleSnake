@@ -10,7 +10,7 @@ public class SimpleSnake extends JFrame {
     private int y = 200;
 
     public SimpleSnake() {
-        this.setTitle("Simple Snake Game");
+        this.setTitle("Simple Snake Game Changed In Github 123");
         this.setSize(WINDOW_SIZE, WINDOW_SIZE);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.add(new GamePanel());
@@ -27,6 +27,8 @@ public class SimpleSnake extends JFrame {
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
+            g.setColor(Color.WHITE);
+            g.drawString("hi there you, how are you", 300,300);
             g.setColor(Color.GREEN);
             g.fillOval(x, y, DOT_SIZE, DOT_SIZE);
         }
