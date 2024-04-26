@@ -4,7 +4,7 @@ import java.awt.event.*;
 
 public class SimpleSnake extends JFrame {
 
-    private static final int WINDOW_SIZE = 400;
+    private static final int WINDOW_SIZE = 500;
     private static final int DOT_SIZE = 20;
     private int x = 100;
     private int y = 200;
